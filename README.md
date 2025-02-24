@@ -24,7 +24,7 @@ Unlike human counting, using AI (specifically Neural Networks) to count the numb
    
    TensorFlow provides basic examples for object recognition, such as handwritten digits and general object recognition (e.g., CIFAR-10, which includes categories like cars, cats, birds, etc.). We adjust the image size and some of the CNN parameters, but the model can only detect whether the image is of a bird or something else, with an unsatisfactory accuracy rate.
 
-2. VisionAgent
+2. **VisionAgent**
    
    VisionAgent generate Visual AI code from prompts. VisionAgent selects models for your vision tasks, so you can build vision-enabled apps in minutes: https://landing.ai/visionagent
    
@@ -51,11 +51,33 @@ Unlike human counting, using AI (specifically Neural Networks) to count the numb
        5. Overlay the bounding boxes and save the resulting image.
        6. Return the total number of detected birds as the final solution.
 
-3. YOLO
+3. **YOLO**
    
    Ultralytics YOLO is the latest advancement in the acclaimed YOLO (You Only Look Once) series for real-time object detection and image segmentation: https://docs.ultralytics.com/
    
    It provide some pre-trained models but the detetion is not too good on the birds, especially for the birds which wings have black-white colors.
+   
+   Result of YOLO pretrained model:
+   
+   ![](D:\Work\AI\Bird\code\BirdCounting\docs\img\YOLO\yolo-PredefinedResult.png)
+   
+   ## Training with YOLO
+   
+   We need to create our own dataset for YOLO training:
+   
+   1. Use labelImg to create YOLO supported labeling image data. Save the image and labeling files to the corresponding dataset directory.
+   
+   2. Create training yaml file: birds-Train.yaml.
+   
+   3. Run the YOLO model and training for 600 epochs. Note: lower or higher epochs, such as 100, 1000, do not have good results.
+   
+   4. Load the trained YOLO model to test the images.
+   
+   Result of YOLO especially trained model:
+   
+   ![](D:\Work\AI\Bird\code\BirdCounting\docs\img\YOLO\yolo-espTrainedResult.png)
+   
+   We can see the result is much better now.
 
 
 
