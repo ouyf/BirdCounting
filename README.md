@@ -36,7 +36,7 @@ Unlike human counting, using AI (specifically Neural Networks) to count the numb
    
    image: flying-birds number: 171
    
-   ![](D:\Work\AI\Bird\code\BirdCounting\docs\img\flying-birds.png)
+   ![](https://github.com/ouyf/BirdCounting/blob/main/docs/img/flying-birds.png)
    
    But there are still some counting errors that can be improved.
    
