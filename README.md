@@ -32,13 +32,15 @@ Unlike human counting, using AI (specifically Neural Networks) to count the numb
    
    image: dcuks  number:33
    
-   ![](D:\Work\AI\Bird\code\BirdCounting\docs\img\ducks.png)
+   ![](https://github.com/ouyf/BirdCounting/blob/main/docs/img/ducks.png)
    
    image: flying-birds number: 171
    
    ![](D:\Work\AI\Bird\code\BirdCounting\docs\img\flying-birds.png)
    
    But there are still some counting errors that can be improved.
+   
+   The current vision ai code are visionAgent\birdCount_v1.py, birdCount_v2.py
    
    
 
