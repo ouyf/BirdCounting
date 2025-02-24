@@ -25,6 +25,22 @@ Unlike human counting, using AI (specifically Neural Networks) to count the numb
    TensorFlow provides basic examples for object recognition, such as handwritten digits and general object recognition (e.g., CIFAR-10, which includes categories like cars, cats, birds, etc.). We adjust the image size and some of the CNN parameters, but the model can only detect whether the image is of a bird or something else, with an unsatisfactory accuracy rate.
 
 2. VisionAgent
+   
+   VisionAgent generate Visual AI code from prompts. VisionAgent selects models for your vision tasks, so you can build vision-enabled apps in minutes: https://landing.ai/visionagent
+   
+   So we use it to generate visual AI code to count the birds number of the image, the result looks acceptable:
+   
+   image: dcuks  number:33
+   
+   ![](D:\Work\AI\Bird\code\BirdCounting\docs\img\ducks.png)
+   
+   image: flying-birds number: 171
+   
+   ![](D:\Work\AI\Bird\code\BirdCounting\docs\img\flying-birds.png)
+   
+   But there are still some counting errors that can be improved.
+   
+   
 
 3. YOLO
 
