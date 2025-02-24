@@ -32,7 +32,7 @@ Unlike human counting, using AI (specifically Neural Networks) to count the numb
    
    image: dcuks  number:33
    
-   ![](https://github.com/ouyf/BirdCounting/blob/main/docs/img/ducks.png)
+   ![](https://github.com/ouyf/BirdCounting/blob/main/docs/img/visionAgent/ducks.png)
    
    image: flying-birds number: 171
    
