@@ -36,15 +36,26 @@ Unlike human counting, using AI (specifically Neural Networks) to count the numb
    
    image: flying-birds number: 171
    
-   ![](https://github.com/ouyf/BirdCounting/blob/main/docs/img/flying-birds.png)
+   ![](https://github.com/ouyf/BirdCounting/blob/main/docs/img/visionAgent/flying-birds.png)
    
    But there are still some counting errors that can be improved.
    
    The current vision ai code are visionAgent\birdCount_v1.py, birdCount_v2.py
    
+   The process of visonAgent AI code :
    
+       1. Load the image using load_image.
+       2. Subdivide the image into four overlapping sections.
+       3. Perform detection on each section using the prompt 'bird, duck'.
+       4. Merge bounding boxes from all sections to remove duplicates.
+       5. Overlay the bounding boxes and save the resulting image.
+       6. Return the total number of detected birds as the final solution.
 
 3. YOLO
+   
+   Ultralytics YOLO is the latest advancement in the acclaimed YOLO (You Only Look Once) series for real-time object detection and image segmentation: https://docs.ultralytics.com/
+   
+   It provide some pre-trained models but the detetion is not too good on the birds, especially for the birds which wings have black-white colors.
 
 
 
