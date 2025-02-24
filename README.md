@@ -59,7 +59,7 @@ Unlike human counting, using AI (specifically Neural Networks) to count the numb
    
    Result of YOLO pretrained model:
    
-   ![](D:\Work\AI\Bird\code\BirdCounting\docs\img\YOLO\yolo-PredefinedResult.png)
+   ![](https://github.com/ouyf/BirdCounting/blob/main/docs/img/YOLO/yolo-PredefinedResult.png)
    
    ## Training with YOLO
    
@@ -75,7 +75,7 @@ Unlike human counting, using AI (specifically Neural Networks) to count the numb
    
    Result of YOLO especially trained model:
    
-   ![](D:\Work\AI\Bird\code\BirdCounting\docs\img\YOLO\yolo-espTrainedResult.png)
+   ![](https://github.com/ouyf/BirdCounting/blob/main/docs/img/YOLO/yolo-espTrainedResult.png)
    
    We can see the result is much better now.
 
